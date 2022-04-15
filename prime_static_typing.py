@@ -35,16 +35,16 @@ def run():
     # Test for function V_1 (for and ifs)
     print("\nFor function V_1 (for and ifs)")
     t0 = time.time()
-    # print(is_prime(5780107))   #Number that is not prime
-    print(is_prime(7919))  # Number that is prime
+    print(is_prime(5780107))   #Number that is not prime
+    #print(is_prime(7919))  # Number that is prime
     t1 = time.time()
     print("Time elapsed: ", t1 - t0)  # CPU seconds elapsed (floating point)
 
     # Test for function V_2 (List comprenhensions)
     print("\nFor function V_2 (List comprenhensions)")
     t0 = time.time()
-    # print(is_prime_v2(5780107))    #Number that is not prime
-    print(is_prime_v2(7919))  # Number that is prime
+    print(is_prime_v2(5780107))    #Number that is not prime
+    #print(is_prime_v2(7919))  # Number that is prime
     t1 = time.time()
     print("Time elapsed: ", t1 - t0)  # CPU seconds elapsed (floating point)
 
