@@ -17,6 +17,18 @@ class TestingFunctions(TestCase):
         self.assertEqual(is_palindrome('Cualquier cosa'), False)
         self.assertEqual(is_palindrome('Ana'), True)
 
+    def test_is_prime(self):
+        """Testing is_prime method
+        """
+        self.assertEqual(is_prime(5), True)
+        self.assertEqual(is_prime(7), True)
+        self.assertEqual(is_prime(11), True)
+        self.assertEqual(is_prime(12), False)
+        self.assertEqual(is_prime(8), False)
+
+
+
+
 
 if __name__ == '__main__':
     unittest.main()
